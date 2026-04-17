@@ -1,0 +1,401 @@
+export const ar = {
+  // ==========================================
+  // Navigation
+  // ==========================================
+  nav: {
+    home: 'الرئيسية',
+    products: 'المنتجات',
+    suppliers: 'الموردين',
+    categories: 'التصنيفات',
+    quoteRequest: 'طلب عرض سعر',
+    login: 'تسجيل الدخول',
+    register: 'إنشاء حساب',
+    logout: 'تسجيل الخروج',
+    dashboard: 'لوحة التحكم',
+    adminPanel: 'لوحة الإدارة',
+    search: 'ابحث عن مورد أو منتج...',
+    topBar: {
+      contactUs: 'تواصل معنا',
+      email: 'info@businfo.dz',
+      phone: '+213 21 000 000',
+      joinFree: 'سجّل كمورد مجانا',
+    },
+  },
+
+  // ==========================================
+  // Auth Forms
+  // ==========================================
+  auth: {
+    loginTitle: 'تسجيل الدخول',
+    registerTitle: 'إنشاء حساب جديد',
+    forgotTitle: 'استعادة كلمة المرور',
+    emailLabel: 'البريد الإلكتروني',
+    passwordLabel: 'كلمة المرور',
+    confirmPasswordLabel: 'تأكيد كلمة المرور',
+    displayNameLabel: 'الاسم الكامل',
+    usernameLabel: 'اسم المستخدم',
+    phoneLabel: 'رقم الهاتف',
+    companyLabel: 'اسم الشركة',
+    roleLabel: 'نوع الحساب',
+    roleUser: 'مشتري / شركة',
+    roleSupplier: 'مورد / مصنع',
+    forgotPassword: 'نسيت كلمة المرور؟',
+    noAccount: 'ليس لديك حساب؟',
+    hasAccount: 'لديك حساب بالفعل؟',
+    loginButton: 'دخول',
+    registerButton: 'إنشاء حساب',
+    forgotButton: 'إرسال رابط الاستعادة',
+    resetButton: 'إعادة تعيين كلمة المرور',
+    backButton: 'العودة لتسجيل الدخول',
+    orLoginWith: 'أو سجّل الدخول بواسطة',
+    orRegisterWith: 'أو أنشئ حسابا بواسطة',
+    agreeTerms: 'أوافق على شروط الاستخدام وسياسة الخصوصية',
+    welcomeBack: 'مرحبا بعودتك',
+    welcomeMessage: 'سجّل دخولك للوصول إلى حسابك',
+    registerSubtitle: 'أنشئ حسابك مجانا وابدأ في استكشاف المنصة',
+    emailSent: 'تم إرسال رابط الاستعادة إلى بريدك الإلكتروني',
+    checkEmail: 'يرجى التحقق من بريدك الإلكتروني والنقر على الرابط',
+  },
+
+  // ==========================================
+  // Products
+  // ==========================================
+  products: {
+    title: 'المنتجات',
+    allProducts: 'جميع المنتجات',
+    featured: 'المنتجات المميزة',
+    latest: 'أحدث المنتجات',
+    bestSelling: 'الأكثر مبيعا',
+    searchPlaceholder: 'ابحث عن منتج...',
+    price: 'السعر',
+    priceRange: 'نطاق السعر',
+    minOrder: 'الحد الأدنى للطلب',
+    unit: 'الوحدة',
+    inStock: 'متوفر في المخزون',
+    outOfStock: 'غير متوفر',
+    addedRecently: 'أضيف مؤخرا',
+    viewDetails: 'عرض التفاصيل',
+    addToQuote: 'أضف لعرض السعر',
+    contactSupplier: 'تواصل مع المورد',
+    noProducts: 'لا توجد منتجات',
+    noProductsDesc: 'لم يتم العثور على منتجات تطابق بحثك',
+    filters: 'تصفية',
+    sortBy: 'ترتيب حسب',
+    sortNewest: 'الأحدث',
+    sortPriceLow: 'السعر: من الأقل',
+    sortPriceHigh: 'السعر: من الأعلى',
+    sortRating: 'التقييم الأعلى',
+    minPrice: 'السعر الأدنى',
+    maxPrice: 'السعر الأقصى',
+    clearFilters: 'مسح التصفية',
+    resultsCount: '{count} منتج',
+    unitPiece: 'قطعة',
+    unitBox: 'صندوق',
+    unitCarton: 'كرتون',
+    unitPallet: 'باليت',
+    unitKg: 'كيلوغرام',
+    unitTon: 'طن',
+    unitMeter: 'متر',
+    unitLiter: 'لتر',
+    perUnit: 'لكل {unit}',
+    requestQuote: 'طلب عرض سعر',
+    downloadCatalog: 'تحميل الكتالوج',
+  },
+
+  // ==========================================
+  // Suppliers
+  // ==========================================
+  suppliers: {
+    title: 'الموردين',
+    allSuppliers: 'جميع الموردين',
+    featured: 'الموردون المميزون',
+    verified: 'الموردون المعتمدون',
+    newest: 'الموردون الجدد',
+    searchPlaceholder: 'ابحث عن مورد...',
+    registerAsSupplier: 'سجّل كمورد',
+    profile: 'الملف الشخصي',
+    products: 'المنتجات',
+    reviews: 'التقييمات',
+    contactInfo: 'معلومات التواصل',
+    aboutCompany: 'عن الشركة',
+    companyAddress: 'عنوان الشركة',
+    memberSince: 'عضو منذ',
+    verifiedSupplier: 'مورد معتمد',
+    goldSupplier: 'مورد ذهبي',
+    blueSupplier: 'مورد مميز',
+    viewProfile: 'عرض الملف',
+    noSuppliers: 'لا يوجد موردين',
+    noSuppliersDesc: 'لم يتم العثور على موردين تطابق بحثك',
+    follow: 'متابعة',
+    following: 'متابَع',
+    sendMessage: 'إرسال رسالة',
+    followers: 'متابع',
+    productCount: 'منتج',
+    rating: 'تقييم',
+    views: 'مشاهدة',
+  },
+
+  // ==========================================
+  // Categories
+  // ==========================================
+  categories: {
+    title: 'التصنيفات',
+    allCategories: 'جميع التصنيفات',
+    browseByCategory: 'تصفح حسب التصنيف',
+    construction: 'البناء والتشييد',
+    electronics: 'الكهرباء والإلكترونيات',
+    food: 'الأغذية والمشروبات',
+    textiles: 'المنسوجات والأقمشة',
+    chemicals: 'المواد الكيميائية',
+    technology: 'التقنية والبرمجيات',
+    healthcare: 'المستلزمات الطبية',
+    automotive: 'قطع الغيار والسيارات',
+    furniture: 'الأثاث والمفروشات',
+    agriculture: 'الزراعة والأسمدة',
+    packaging: 'التعبئة والتغليف',
+    cleaning: 'منتجات التنظيف',
+  },
+
+  // ==========================================
+  // Dashboard
+  // ==========================================
+  dashboard: {
+    title: 'لوحة التحكم',
+    welcome: 'مرحبا، {name}',
+    overview: 'نظرة عامة',
+    products: 'المنتجات',
+    orders: 'الطلبات',
+    messages: 'الرسائل',
+    settings: 'الإعدادات',
+    profile: 'الملف الشخصي',
+    companyProfile: 'ملف الشركة',
+    addProduct: 'إضافة منتج',
+    editProduct: 'تعديل المنتج',
+    deleteProduct: 'حذف المنتج',
+    manageProducts: 'إدارة المنتجات',
+    manageOrders: 'إدارة الطلبات',
+    manageMessages: 'إدارة الرسائل',
+    viewStats: 'عرض الإحصائيات',
+    totalProducts: 'إجمالي المنتجات',
+    totalOrders: 'إجمالي الطلبات',
+    totalViews: 'إجمالي المشاهدات',
+    totalRevenue: 'إجمالي الإيرادات',
+    recentOrders: 'أحدث الطلبات',
+    recentMessages: 'أحدث الرسائل',
+    pendingApproval: 'في انتظار الموافقة',
+    approved: 'مقبول',
+    rejected: 'مرفوض',
+    active: 'نشط',
+    inactive: 'غير نشط',
+    noData: 'لا توجد بيانات',
+    save: 'حفظ',
+    cancel: 'إلغاء',
+    update: 'تحديث',
+    delete: 'حذف',
+    edit: 'تعديل',
+    view: 'عرض',
+    close: 'إغلاق',
+    confirm: 'تأكيد',
+    confirmDelete: 'هل أنت متأكد من الحذف؟',
+  },
+
+  // ==========================================
+  // Admin Panel
+  // ==========================================
+  admin: {
+    title: 'لوحة الإدارة',
+    users: 'المستخدمون',
+    suppliersApproval: 'موافقة الموردين',
+    adsManagement: 'إدارة الإعلانات',
+    reports: 'التقارير',
+    systemSettings: 'إعدادات النظام',
+    approve: 'قبول',
+    reject: 'رفض',
+    suspend: 'تعليق',
+    activate: 'تفعيل',
+    totalUsers: 'إجمالي المستخدمين',
+    totalSuppliers: 'إجمالي الموردين',
+    totalRevenue: 'إجمالي الإيرادات',
+    pendingSuppliers: 'موردين بانتظار الموافقة',
+    activeAds: 'إعلانات نشطة',
+    approveSupplier: 'قبول المورد',
+    rejectSupplier: 'رفض المورد',
+    addNote: 'إضافة ملاحظة',
+  },
+
+  // ==========================================
+  // Footer
+  // ==========================================
+  footer: {
+    about: 'عن بزنس إنفو',
+    aboutDesc: 'منصة بزنس إنفو هي المنصة الرائدة في الجزائر لربط الموردين والشركات. نسهّل عليك إيجاد أفضل الموردين والمنتجات بأسعار تنافسية.',
+    quickLinks: 'روابط سريعة',
+    categories: 'التصنيفات',
+    contact: 'تواصل معنا',
+    newsletter: 'النشرة البريدية',
+    newsletterDesc: 'اشترك في نشرتنا البريدية لتصلك أحدث العروض والمنتجات',
+    emailPlaceholder: 'بريدك الإلكتروني',
+    subscribe: 'اشتراك',
+    subscribeSuccess: 'تم الاشتراك بنجاح!',
+    address: 'العاصمة، الجزائر',
+    rights: 'جميع الحقوق محفوظة',
+    terms: 'شروط الاستخدام',
+    privacy: 'سياسة الخصوصية',
+    helpCenter: 'مركز المساعدة',
+    faq: 'الأسئلة الشائعة',
+    contactUs: 'تواصل معنا',
+  },
+
+  // ==========================================
+  // Common Actions
+  // ==========================================
+  common: {
+    search: 'بحث',
+    filter: 'تصفية',
+    sort: 'ترتيب',
+    loadMore: 'تحميل المزيد',
+    showAll: 'عرض الكل',
+    back: 'رجوع',
+    next: 'التالي',
+    previous: 'السابق',
+    save: 'حفظ',
+    cancel: 'إلغاء',
+    delete: 'حذف',
+    edit: 'تعديل',
+    add: 'إضافة',
+    create: 'إنشاء',
+    update: 'تحديث',
+    submit: 'إرسال',
+    confirm: 'تأكيد',
+    yes: 'نعم',
+    no: 'لا',
+    loading: 'جارٍ التحميل...',
+    noResults: 'لا توجد نتائج',
+    noData: 'لا توجد بيانات',
+    seeMore: 'عرض المزيد',
+    seeLess: 'عرض أقل',
+    comingSoon: 'قريبا',
+    featured: 'مميز',
+    new: 'جديد',
+    popular: 'شائع',
+    recommended: 'مقترح',
+    free: 'مجاني',
+    premium: 'مميز',
+    all: 'الكل',
+    active: 'نشط',
+    inactive: 'غير نشط',
+    pending: 'قيد الانتظار',
+    completed: 'مكتمل',
+    open: 'مفتوح',
+    closed: 'مغلق',
+    upload: 'رفع',
+    download: 'تحميل',
+    copy: 'نسخ',
+    share: 'مشاركة',
+    print: 'طباعة',
+    of: 'من',
+    page: 'صفحة',
+    showing: 'عرض',
+    to: 'إلى',
+    results: 'نتائج',
+  },
+
+  // ==========================================
+  // Empty States
+  // ==========================================
+  empty: {
+    noProducts: 'لا توجد منتجات بعد',
+    noProductsDesc: 'لم يتم إضافة أي منتجات في هذه الفئة',
+    noSuppliers: 'لا يوجد موردين بعد',
+    noSuppliersDesc: 'لم يتم تسجيل أي موردين في هذه الفئة',
+    noMessages: 'لا توجد رسائل',
+    noMessagesDesc: 'لم تصلك أي رسائل بعد',
+    noOrders: 'لا توجد طلبات',
+    noOrdersDesc: 'لم تقم بأي طلبات بعد',
+    noFavorites: 'لا توجد مفضلات',
+    noFavoritesDesc: 'لم تقم بإضافة أي عناصر للمفضلة',
+    noNotifications: 'لا توجد إشعارات',
+    noNotificationsDesc: 'ليس لديك أي إشعارات جديدة',
+    noSearchResults: 'لا توجد نتائج للبحث',
+    noSearchResultsDesc: 'جرب البحث بكلمات مختلفة أو تصفح التصنيفات',
+    noReviews: 'لا توجد تقييمات',
+    noReviewsDesc: 'لم يتم إضافة أي تقييمات بعد',
+  },
+
+  // ==========================================
+  // Error Messages
+  // ==========================================
+  errors: {
+    general: 'حدث خطأ غير متوقع. يرجى المحاولة مرة أخرى.',
+    network: 'تعذر الاتصال بالخادم. تحقق من اتصال الإنترنت.',
+    unauthorized: 'يجب تسجيل الدخول للوصول إلى هذه الصفحة.',
+    forbidden: 'ليس لديك صلاحية الوصول إلى هذه الصفحة.',
+    notFound: 'الصفحة المطلوبة غير موجودة.',
+    sessionExpired: 'انتهت صلاحية الجلسة. يرجى تسجيل الدخول مرة أخرى.',
+    invalidEmail: 'البريد الإلكتروني غير صالح.',
+    invalidPassword: 'كلمة المرور غير صالحة. يجب أن تكون 8 أحرف على الأقل.',
+    passwordsNotMatch: 'كلمات المرور غير متطابقة.',
+    emailExists: 'هذا البريد الإلكتروني مسجل بالفعل.',
+    usernameExists: 'اسم المستخدم مستخدم بالفعل.',
+    loginFailed: 'البريد الإلكتروني أو كلمة المرور غير صحيحة.',
+    registrationFailed: 'فشل في إنشاء الحساب. يرجى المحاولة مرة أخرى.',
+    requiredField: 'هذا الحقل مطلوب.',
+    invalidPhone: 'رقم الهاتف غير صالح.',
+    fileTooLarge: 'حجم الملف يتجاوز الحد المسموح.',
+    invalidFileType: 'نوع الملف غير مدعوم.',
+    uploadFailed: 'فشل في رفع الملف. يرجى المحاولة مرة أخرى.',
+  },
+
+  // ==========================================
+  // Success Messages
+  // ==========================================
+  success: {
+    loginSuccess: 'تم تسجيل الدخول بنجاح',
+    registerSuccess: 'تم إنشاء الحساب بنجاح',
+    logoutSuccess: 'تم تسجيل الخروج بنجاح',
+    saveSuccess: 'تم الحفظ بنجاح',
+    deleteSuccess: 'تم الحذف بنجاح',
+    updateSuccess: 'تم التحديث بنجاح',
+    passwordReset: 'تم إرسال رابط إعادة تعيين كلمة المرور',
+    emailVerified: 'تم التحقق من البريد الإلكتروني بنجاح',
+    productAdded: 'تم إضافة المنتج بنجاح',
+    productUpdated: 'تم تحديث المنتج بنجاح',
+    productDeleted: 'تم حذف المنتج بنجاح',
+    messageSent: 'تم إرسال الرسالة بنجاح',
+    profileUpdated: 'تم تحديث الملف الشخصي بنجاح',
+  },
+
+  // ==========================================
+  // Language
+  // ==========================================
+  language: {
+    arabic: 'العربية',
+    french: 'Fran\u00e7ais',
+    switchLang: 'تغيير اللغة',
+  },
+
+  // ==========================================
+  // Currency
+  // ==========================================
+  currency: {
+    DZD: 'د.ج',
+    EUR: '\u20ac',
+    USD: '$',
+  },
+
+  // ==========================================
+  // Time & Date
+  // ==========================================
+  date: {
+    today: 'اليوم',
+    yesterday: 'أمس',
+    justNow: 'الآن',
+    minutesAgo: 'منذ {count} دقائق',
+    hoursAgo: 'منذ {count} ساعات',
+    daysAgo: 'منذ {count} أيام',
+    weeksAgo: 'منذ {count} أسابيع',
+    monthsAgo: 'منذ {count} أشهر',
+  },
+};
+
+export type TranslationKeys = typeof ar;

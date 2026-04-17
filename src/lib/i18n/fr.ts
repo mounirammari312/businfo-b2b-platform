@@ -1,0 +1,401 @@
+import type { TranslationKeys } from './ar';
+
+export const fr: TranslationKeys = {
+  // ==========================================
+  // Navigation
+  // ==========================================
+  nav: {
+    home: 'Accueil',
+    products: 'Produits',
+    suppliers: 'Fournisseurs',
+    categories: 'Cat\u00e9gories',
+    quoteRequest: 'Demander un devis',
+    login: 'Connexion',
+    register: "Cr\u00e9er un compte",
+    logout: 'D\u00e9connexion',
+    dashboard: 'Tableau de bord',
+    adminPanel: "Panneau d'administration",
+    search: 'Rechercher un fournisseur ou un produit...',
+    topBar: {
+      contactUs: 'Contactez-nous',
+      email: 'info@businfo.dz',
+      phone: '+213 21 000 000',
+      joinFree: "Inscrivez-vous gratuitement",
+    },
+  },
+
+  // ==========================================
+  // Auth Forms
+  // ==========================================
+  auth: {
+    loginTitle: 'Connexion',
+    registerTitle: 'Cr\u00e9er un nouveau compte',
+    forgotTitle: 'R\u00e9cup\u00e9rer le mot de passe',
+    emailLabel: 'Adresse e-mail',
+    passwordLabel: 'Mot de passe',
+    confirmPasswordLabel: 'Confirmer le mot de passe',
+    displayNameLabel: 'Nom complet',
+    usernameLabel: "Nom d'utilisateur",
+    phoneLabel: 'Num\u00e9ro de t\u00e9l\u00e9phone',
+    companyLabel: 'Nom de l\'entreprise',
+    roleLabel: 'Type de compte',
+    roleUser: 'Acheteur / Entreprise',
+    roleSupplier: 'Fournisseur / Fabricant',
+    forgotPassword: 'Mot de passe oubli\u00e9 ?',
+    noAccount: "Vous n'avez pas de compte ?",
+    hasAccount: 'Vous avez d\u00e9j\u00e0 un compte ?',
+    loginButton: 'Connexion',
+    registerButton: "Cr\u00e9er un compte",
+    forgotButton: 'Envoyer le lien de r\u00e9cup\u00e9ration',
+    resetButton: 'R\u00e9initialiser le mot de passe',
+    backButton: 'Retour \u00e0 la connexion',
+    orLoginWith: 'Ou connectez-vous avec',
+    orRegisterWith: 'Ou cr\u00e9ez un compte avec',
+    agreeTerms: "J'accepte les conditions d'utilisation et la politique de confidentialit\u00e9",
+    welcomeBack: 'Bon retour parmi nous',
+    welcomeMessage: 'Connectez-vous pour acc\u00e9der \u00e0 votre compte',
+    registerSubtitle: 'Cr\u00e9ez votre compte gratuitement et explorez la plateforme',
+    emailSent: 'Le lien de r\u00e9cup\u00e9ration a \u00e9t\u00e9 envoy\u00e9 \u00e0 votre e-mail',
+    checkEmail: 'Veuillez v\u00e9rifier votre e-mail et cliquer sur le lien',
+  },
+
+  // ==========================================
+  // Products
+  // ==========================================
+  products: {
+    title: 'Produits',
+    allProducts: 'Tous les produits',
+    featured: 'Produits en vedette',
+    latest: 'Derniers produits',
+    bestSelling: 'Les plus vendus',
+    searchPlaceholder: 'Rechercher un produit...',
+    price: 'Prix',
+    priceRange: 'Fourchette de prix',
+    minOrder: 'Commande minimum',
+    unit: 'Unit\u00e9',
+    inStock: 'En stock',
+    outOfStock: 'Rupture de stock',
+    addedRecently: 'Ajout\u00e9 r\u00e9cemment',
+    viewDetails: 'Voir les d\u00e9tails',
+    addToQuote: 'Ajouter au devis',
+    contactSupplier: 'Contacter le fournisseur',
+    noProducts: 'Aucun produit',
+    noProductsDesc: 'Aucun produit ne correspond \u00e0 votre recherche',
+    filters: 'Filtrer',
+    sortBy: 'Trier par',
+    sortNewest: 'Plus r\u00e9cent',
+    sortPriceLow: 'Prix croissant',
+    sortPriceHigh: 'Prix d\u00e9croissant',
+    sortRating: 'Meilleure note',
+    minPrice: 'Prix minimum',
+    maxPrice: 'Prix maximum',
+    clearFilters: 'Effacer les filtres',
+    resultsCount: '{count} produits',
+    unitPiece: 'Pi\u00e8ce',
+    unitBox: 'Carton',
+    unitCarton: 'Carton',
+    unitPallet: 'Palette',
+    unitKg: 'Kilogramme',
+    unitTon: 'Tonne',
+    unitMeter: 'M\u00e8tre',
+    unitLiter: 'Litre',
+    perUnit: 'par {unit}',
+    requestQuote: 'Demander un devis',
+    downloadCatalog: 'T\u00e9l\u00e9charger le catalogue',
+  },
+
+  // ==========================================
+  // Suppliers
+  // ==========================================
+  suppliers: {
+    title: 'Fournisseurs',
+    allSuppliers: 'Tous les fournisseurs',
+    featured: 'Fournisseurs en vedette',
+    verified: 'Fournisseurs certifi\u00e9s',
+    newest: 'Nouveaux fournisseurs',
+    searchPlaceholder: 'Rechercher un fournisseur...',
+    registerAsSupplier: "S'inscrire comme fournisseur",
+    profile: 'Profil',
+    products: 'Produits',
+    reviews: 'Avis',
+    contactInfo: 'Coordonn\u00e9es',
+    aboutCompany: "\u00c0 propos de l'entreprise",
+    companyAddress: 'Adresse de l\'entreprise',
+    memberSince: 'Membre depuis',
+    verifiedSupplier: 'Fournisseur certifi\u00e9',
+    goldSupplier: 'Fournisseur Or',
+    blueSupplier: 'Fournisseur Premium',
+    viewProfile: 'Voir le profil',
+    noSuppliers: 'Aucun fournisseur',
+    noSuppliersDesc: 'Aucun fournisseur ne correspond \u00e0 votre recherche',
+    follow: 'Suivre',
+    following: 'Suivi',
+    sendMessage: 'Envoyer un message',
+    followers: 'abonn\u00e9s',
+    productCount: 'produits',
+    rating: 'note',
+    views: 'vues',
+  },
+
+  // ==========================================
+  // Categories
+  // ==========================================
+  categories: {
+    title: 'Cat\u00e9gories',
+    allCategories: 'Toutes les cat\u00e9gories',
+    browseByCategory: 'Parcourir par cat\u00e9gorie',
+    construction: 'B\u00e2timent & Travaux publics',
+    electronics: "\u00c9lectricit\u00e9 & \u00c9lectronique",
+    food: 'Alimentation & Boissons',
+    textiles: 'Textile & Tissus',
+    chemicals: 'Produits chimiques',
+    technology: 'Technologie & Logiciels',
+    healthcare: '\u00c9quipements m\u00e9dicaux',
+    automotive: 'Pi\u00e8ces d\u00e9tach\u00e9es & Automobile',
+    furniture: 'Meubles & Ameublement',
+    agriculture: 'Agriculture & Engrais',
+    packaging: 'Emballage & Conditionnement',
+    cleaning: 'Produits de nettoyage',
+  },
+
+  // ==========================================
+  // Dashboard
+  // ==========================================
+  dashboard: {
+    title: 'Tableau de bord',
+    welcome: 'Bonjour, {name}',
+    overview: "Vue d'ensemble",
+    products: 'Produits',
+    orders: 'Commandes',
+    messages: 'Messages',
+    settings: 'Param\u00e8tres',
+    profile: 'Profil',
+    companyProfile: "Profil de l'entreprise",
+    addProduct: 'Ajouter un produit',
+    editProduct: 'Modifier le produit',
+    deleteProduct: 'Supprimer le produit',
+    manageProducts: 'G\u00e9rer les produits',
+    manageOrders: 'G\u00e9rer les commandes',
+    manageMessages: 'G\u00e9rer les messages',
+    viewStats: 'Voir les statistiques',
+    totalProducts: 'Total des produits',
+    totalOrders: 'Total des commandes',
+    totalViews: 'Total des vues',
+    totalRevenue: "Chiffre d'affaires total",
+    recentOrders: 'Commandes r\u00e9centes',
+    recentMessages: 'Messages r\u00e9cents',
+    pendingApproval: 'En attente d\'approbation',
+    approved: 'Approuv\u00e9',
+    rejected: 'Rejet\u00e9',
+    active: 'Actif',
+    inactive: 'Inactif',
+    noData: 'Aucune donn\u00e9e',
+    save: 'Enregistrer',
+    cancel: 'Annuler',
+    update: 'Mettre \u00e0 jour',
+    delete: 'Supprimer',
+    edit: 'Modifier',
+    view: 'Voir',
+    close: 'Fermer',
+    confirm: 'Confirmer',
+    confirmDelete: '\u00cates-vous s\u00fbr de vouloir supprimer ?',
+  },
+
+  // ==========================================
+  // Admin Panel
+  // ==========================================
+  admin: {
+    title: "Panneau d'administration",
+    users: 'Utilisateurs',
+    suppliersApproval: 'Approbation des fournisseurs',
+    adsManagement: 'Gestion des publicit\u00e9s',
+    reports: 'Rapports',
+    systemSettings: 'Param\u00e8tres syst\u00e8me',
+    approve: 'Approuver',
+    reject: 'Rejeter',
+    suspend: 'Suspendre',
+    activate: 'Activer',
+    totalUsers: 'Total des utilisateurs',
+    totalSuppliers: 'Total des fournisseurs',
+    totalRevenue: "Revenus totaux",
+    pendingSuppliers: 'Fournisseurs en attente',
+    activeAds: 'Publicit\u00e9s actives',
+    approveSupplier: 'Approuver le fournisseur',
+    rejectSupplier: 'Rejeter le fournisseur',
+    addNote: 'Ajouter une note',
+  },
+
+  // ==========================================
+  // Footer
+  // ==========================================
+  footer: {
+    about: '\u00c0 propos de Businfo',
+    aboutDesc: "Businfo est la plateforme de r\u00e9f\u00e9rence en Alg\u00e9rie pour connecter les fournisseurs et les entreprises. Nous vous facilitons la recherche des meilleurs fournisseurs et produits \u00e0 des prix comp\u00e9titifs.",
+    quickLinks: 'Liens rapides',
+    categories: 'Cat\u00e9gories',
+    contact: 'Contactez-nous',
+    newsletter: 'Newsletter',
+    newsletterDesc: 'Inscrivez-vous \u00e0 notre newsletter pour recevoir les derni\u00e8res offres et produits',
+    emailPlaceholder: 'Votre adresse e-mail',
+    subscribe: "S'abonner",
+    subscribeSuccess: 'Inscription r\u00e9ussie !',
+    address: 'Alger, Alg\u00e9rie',
+    rights: 'Tous droits r\u00e9serv\u00e9s',
+    terms: "Conditions d'utilisation",
+    privacy: 'Politique de confidentialit\u00e9',
+    helpCenter: 'Centre d\'aide',
+    faq: 'FAQ',
+    contactUs: 'Contactez-nous',
+  },
+
+  // ==========================================
+  // Common Actions
+  // ==========================================
+  common: {
+    search: 'Rechercher',
+    filter: 'Filtrer',
+    sort: 'Trier',
+    loadMore: 'Charger plus',
+    showAll: 'Voir tout',
+    back: 'Retour',
+    next: 'Suivant',
+    previous: 'Pr\u00e9c\u00e9dent',
+    save: 'Enregistrer',
+    cancel: 'Annuler',
+    delete: 'Supprimer',
+    edit: 'Modifier',
+    add: 'Ajouter',
+    create: 'Cr\u00e9er',
+    update: 'Mettre \u00e0 jour',
+    submit: 'Envoyer',
+    confirm: 'Confirmer',
+    yes: 'Oui',
+    no: 'Non',
+    loading: 'Chargement...',
+    noResults: 'Aucun r\u00e9sultat',
+    noData: 'Aucune donn\u00e9e',
+    seeMore: 'Voir plus',
+    seeLess: 'Voir moins',
+    comingSoon: 'Bient\u00f4t',
+    featured: 'En vedette',
+    new: 'Nouveau',
+    popular: 'Populaire',
+    recommended: 'Recommand\u00e9',
+    free: 'Gratuit',
+    premium: 'Premium',
+    all: 'Tous',
+    active: 'Actif',
+    inactive: 'Inactif',
+    pending: 'En attente',
+    completed: 'Termin\u00e9',
+    open: 'Ouvert',
+    closed: 'Ferm\u00e9',
+    upload: 'T\u00e9l\u00e9charger',
+    download: 'T\u00e9l\u00e9charger',
+    copy: 'Copier',
+    share: 'Partager',
+    print: 'Imprimer',
+    of: 'sur',
+    page: 'Page',
+    showing: 'Affichage',
+    to: '\u00e0',
+    results: 'r\u00e9sultats',
+  },
+
+  // ==========================================
+  // Empty States
+  // ==========================================
+  empty: {
+    noProducts: 'Aucun produit',
+    noProductsDesc: 'Aucun produit n\'a \u00e9t\u00e9 ajout\u00e9 dans cette cat\u00e9gorie',
+    noSuppliers: 'Aucun fournisseur',
+    noSuppliersDesc: 'Aucun fournisseur n\'est inscrit dans cette cat\u00e9gorie',
+    noMessages: 'Aucun message',
+    noMessagesDesc: 'Vous n\'avez pas encore re\u00e7u de message',
+    noOrders: 'Aucune commande',
+    noOrdersDesc: 'Vous n\'avez pas encore pass\u00e9 de commande',
+    noFavorites: 'Aucun favori',
+    noFavoritesDesc: 'Vous n\'avez pas encore ajout\u00e9 d\'\u00e9l\u00e9ments en favori',
+    noNotifications: 'Aucune notification',
+    noNotificationsDesc: 'Vous n\'avez pas de nouvelles notifications',
+    noSearchResults: 'Aucun r\u00e9sultat de recherche',
+    noSearchResultsDesc: 'Essayez avec diff\u00e9rents mots-cl\u00e9s ou parcourez les cat\u00e9gories',
+    noReviews: 'Aucun avis',
+    noReviewsDesc: 'Aucun avis n\'a \u00e9t\u00e9 ajout\u00e9 pour le moment',
+  },
+
+  // ==========================================
+  // Error Messages
+  // ==========================================
+  errors: {
+    general: 'Une erreur inattendue s\'est produite. Veuillez r\u00e9essayer.',
+    network: 'Impossible de se connecter au serveur. V\u00e9rifiez votre connexion Internet.',
+    unauthorized: 'Vous devez \u00eatre connect\u00e9 pour acc\u00e9der \u00e0 cette page.',
+    forbidden: "Vous n'avez pas la permission d'acc\u00e9der \u00e0 cette page.",
+    notFound: 'La page demand\u00e9e est introuvable.',
+    sessionExpired: 'Votre session a expir\u00e9. Veuillez vous reconnecter.',
+    invalidEmail: 'Adresse e-mail invalide.',
+    invalidPassword: 'Mot de passe invalide. Il doit contenir au moins 8 caract\u00e8res.',
+    passwordsNotMatch: 'Les mots de passe ne correspondent pas.',
+    emailExists: 'Cette adresse e-mail est d\u00e9j\u00e0 enregistr\u00e9e.',
+    usernameExists: "Ce nom d'utilisateur est d\u00e9j\u00e0 utilis\u00e9.",
+    loginFailed: 'Adresse e-mail ou mot de passe incorrect.',
+    registrationFailed: "\u00c9chec de la cr\u00e9ation du compte. Veuillez r\u00e9essayer.",
+    requiredField: 'Ce champ est obligatoire.',
+    invalidPhone: 'Num\u00e9ro de t\u00e9l\u00e9phone invalide.',
+    fileTooLarge: 'La taille du fichier d\u00e9passe la limite autoris\u00e9e.',
+    invalidFileType: 'Type de fichier non support\u00e9.',
+    uploadFailed: "\u00c9chec du t\u00e9l\u00e9chargement. Veuillez r\u00e9essayer.",
+  },
+
+  // ==========================================
+  // Success Messages
+  // ==========================================
+  success: {
+    loginSuccess: 'Connexion r\u00e9ussie',
+    registerSuccess: 'Compte cr\u00e9\u00e9 avec succ\u00e8s',
+    logoutSuccess: 'D\u00e9connexion r\u00e9ussie',
+    saveSuccess: 'Enregistr\u00e9 avec succ\u00e8s',
+    deleteSuccess: 'Supprim\u00e9 avec succ\u00e8s',
+    updateSuccess: 'Mis \u00e0 jour avec succ\u00e8s',
+    passwordReset: 'Le lien de r\u00e9initialisation a \u00e9t\u00e9 envoy\u00e9',
+    emailVerified: 'E-mail v\u00e9rifi\u00e9 avec succ\u00e8s',
+    productAdded: 'Produit ajout\u00e9 avec succ\u00e8s',
+    productUpdated: 'Produit mis \u00e0 jour avec succ\u00e8s',
+    productDeleted: 'Produit supprim\u00e9 avec succ\u00e8s',
+    messageSent: 'Message envoy\u00e9 avec succ\u00e8s',
+    profileUpdated: 'Profil mis \u00e0 jour avec succ\u00e8s',
+  },
+
+  // ==========================================
+  // Language
+  // ==========================================
+  language: {
+    arabic: '\u0627\u0644\u0639\u0631\u0628\u064a\u0629',
+    french: 'Fran\u00e7ais',
+    switchLang: 'Changer la langue',
+  },
+
+  // ==========================================
+  // Currency
+  // ==========================================
+  currency: {
+    DZD: 'DA',
+    EUR: '\u20ac',
+    USD: '$',
+  },
+
+  // ==========================================
+  // Time & Date
+  // ==========================================
+  date: {
+    today: "Aujourd'hui",
+    yesterday: 'Hier',
+    justNow: "\u00c0 l'instant",
+    minutesAgo: 'Il y a {count} minutes',
+    hoursAgo: 'Il y a {count} heures',
+    daysAgo: 'Il y a {count} jours',
+    weeksAgo: 'Il y a {count} semaines',
+    monthsAgo: 'Il y a {count} mois',
+  },
+};
